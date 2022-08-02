@@ -1,0 +1,39 @@
+.header{
+  background-color: #F8F9FA;
+  height: max-content;
+  padding: 15px 30px;
+  display: grid;
+  place-items: center;
+
+  .container{
+    justify-content: space-between;
+
+    .navbar{
+      display: flex;
+      align-items: center;
+      gap: 40px;
+
+      .logo-title{
+        text-transform: capitalize;
+        font-weight: 400;
+      }
+
+      .nav-list{
+        margin: 0;
+        
+        .nav-item{
+          padding: 0px 10px;
+          font-size: 20px;
+          text-transform: capitalize;
+        }
+      }
+    }
+
+    .btn{
+      font-size: 20px;
+      background-color: dodgerblue;
+      color: white;
+      padding: 5px 20px;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.hero{
+  
+
+  .info{
+    width: 100%;
+    height: 40vh;
+    padding: 50px 150px;
+    background-color: #212529;
+
+
+    .title{
+      text-align: center;
+      color: white;
+      font-size: 65px;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+
+    .description{
+      text-align: center;
+      color: rgb(214, 211, 211);
+      font-size: 20px;
+    }
+  }
+
+  .cards{
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+
+    .card{
+      gap: 15px;
+    }
+  }
+
+  .subtitle{
+    height: 10vh;
+    background-color: #212529;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    margin-bottom: 0;
+  }
+}
